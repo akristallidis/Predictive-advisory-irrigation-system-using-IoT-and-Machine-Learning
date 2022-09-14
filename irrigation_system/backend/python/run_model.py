@@ -16,7 +16,7 @@ result = loaded_model.predict(data)
 if result<minval:
     result = 0.0
 
-URL = "******path******/irrigation/backend/API/advice/adviceManagement.php"
+URL = "******path******/irrigation_system/backend/API/advice/adviceManagement.php"
 data = {'cropId': cropId, 'liters': result}
 r = requests.get(url = URL, params = data)
 print(r)
