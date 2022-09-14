@@ -55,7 +55,7 @@
                     
             </div>
             
-            <form align="center" action="******path******/irrigation/backend/API/success/writeFarmerVote.php?crop_id=<?php echo $_GET['crop_id'] ?>" method="post">
+            <form align="center" action="******path******/irrigation_system/backend/API/success/writeFarmerVote.php?crop_id=<?php echo $_GET['crop_id'] ?>" method="post">
                     <H5> ΕΠΙΥΧΗΣ ΠΡΟΒΛΕΨΗ<H5><br>
                     <input type="submit" id="btn" name="btn" value="ΝΑΙ" class="" onclick="myFunction()"><br><br>
                     <input type="submit" id="btn" name="btn" value="ΟΧΙ" class="" onclick="myFunction()">
